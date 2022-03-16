@@ -1,0 +1,29 @@
+{
+  "pictures": [
+    {
+      "id": 1,
+      "pic": "/person1.jpg",
+      "status": "like"
+    },
+    {
+      "id": 2,
+      "pic": "/person2.jpg",
+      "status": "like"
+    },
+    {
+      "id": 3,
+      "pic": "/person3.jpg",
+      "status": "like"
+    },
+    {
+      "id": 4,
+      "pic": "/person4.jpg",
+      "status": "like"
+    },
+    {
+      "id": 5,
+      "pic": "/person5.jpg",
+      "status": "like"
+    }
+  ]  
+}
