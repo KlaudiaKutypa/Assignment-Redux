@@ -2,28 +2,23 @@
   "pictures": [
     {
       "id": 1,
-      "pic": "/person1.jpg",
-      "status": "like"
+      "pic": "/person1.jpg"
     },
     {
       "id": 2,
-      "pic": "/person2.jpg",
-      "status": "like"
+      "pic": "/person2.jpg"
     },
     {
       "id": 3,
-      "pic": "/person3.jpg",
-      "status": "like"
+      "pic": "/person3.jpg"
     },
     {
       "id": 4,
-      "pic": "/person4.jpg",
-      "status": "like"
+      "pic": "/person4.jpg"
     },
     {
       "id": 5,
-      "pic": "/person5.jpg",
-      "status": "like"
+      "pic": "/person5.jpg"
     }
   ]  
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 
+
 function App() {
 
   const [all, setAll] = useState([]);
@@ -18,12 +19,17 @@ function App() {
 
   const [counter, setCounter] = useState(0);
   
-  const handleClick = (id) => {
+  const handleClick2 = (id) => {
     setCounter(prevCounter => prevCounter +1);
     console.log(id)
     // if (id == id) {
     //   setCounter(prevCounter => prevCounter +1)
     //   console.log(id)
+    }
+
+    const [color, setColor] = useState('');
+    const handleClick = () => {
+      setColor(color ===`` ? `orange` : ``)
     }
 
   return (
@@ -32,9 +38,10 @@ function App() {
       {all.map ((picture) =>(
         <div className="App__box__pic" key={picture.id}>
          <img src={picture.pic}></img>
-          <button onClick={() => {handleClick(picture.id)}}>{picture.status}{counter}</button>
-          <button>NIE OK</button>
-      
+         <div className="App__box__btn">
+          <div className="App__box__buttonlike" style = {{ background: color}} onClick={() => {handleClick(picture.id)}}></div>
+          <div className="App__box__buttonunlike"></div>
+          </div>
         </div>
         
         ))}
