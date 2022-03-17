@@ -11,8 +11,8 @@ return (
     <div className="Photo">
         {photo.map((img) => (
             <div className="Photo__pic" key={img.id}>
-            <img src={img.image}></img>
-            <Counter />
+                <img src={img.image}></img>
+                <Counter />
             </div>
         ))}
     </div>   
