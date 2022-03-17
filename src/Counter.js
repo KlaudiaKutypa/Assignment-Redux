@@ -10,8 +10,8 @@ return (
     <div className="Counter">
         <h2>Like {counter}</h2>
         <div className="Counter__btnbox">
-        <button className="Counter__btnbox_btnlike" onClick={() => dispatch(increment())}></button>
-        <button className="Counter__btnbox_btnunlike" onClick={() => dispatch(decrement())}></button>
+        <button className="Counter__btnbox_btnlike" title="testingtitle" onClick={() => dispatch(increment())}></button>
+        <button className="Counter__btnbox_btnunlike" title="testingtitle2"onClick={() => dispatch(decrement())}></button>
         </div>
     </div>   
 );
