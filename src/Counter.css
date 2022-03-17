@@ -1,0 +1,30 @@
+.Counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Counter__btnbox {
+    display: flex;
+    align-items: center;
+}
+
+.btnlike {
+    width: 60px;
+    height: 50px;
+    margin-right: 5px;
+    background-size: contain;
+    border-radius: 5px;
+    padding: 10px;
+    background: url(like.svg) no-repeat;
+}
+  
+  .btnunlike {
+    width: 60px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background: url(unlike.svg) no-repeat;
+} 
