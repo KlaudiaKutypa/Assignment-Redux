@@ -1,0 +1,16 @@
+.Photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Photo__pic {
+    padding: 30px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
