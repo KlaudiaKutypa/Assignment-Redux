@@ -3,6 +3,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .Photo__pic {
@@ -14,4 +15,5 @@
 img {
     width: 250px;
     height: 250px;
+    border-radius: 20px;
 }

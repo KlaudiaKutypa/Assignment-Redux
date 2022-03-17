@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .Counter__btnbox {
     display: flex;
     align-items: center;
+
 }
 
 .btnlike {
